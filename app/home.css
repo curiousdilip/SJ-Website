@@ -1,0 +1,55 @@
+#hero .container {
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero .container .content h1 {
+    font-size: 44px;
+    font-weight: bold;
+    /* line-height: 1.5em; */
+}
+
+#hero .container .content p {
+    margin-top: 40px;
+    margin-bottom: 38px;
+    line-height: 1.5em;
+    width: 500px;
+}
+
+#hero .container .content a {
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: medium;
+    padding: 16px 20px;
+    background-color: #FF6464;
+}
+
+#hero .container .image img {
+    border-radius: 50%;
+}
+
+#blogs {
+    background-color: #EDF7FA;
+    padding: 40px 0;
+}
+
+#blogs .container {
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#blogs .container .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
