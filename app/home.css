@@ -237,6 +237,10 @@
         height: auto;
     }
 
+    #works .container {
+        width: 100%;
+    }
+
     #works .container .work-list .work {
         flex-direction: column;
         width: auto;
