@@ -1,6 +1,6 @@
 #blog-page {
     padding: 50px 0;
-    margin-top: 150px;
+    margin-top: 106px;
 }
 
 #blog-page .container {
@@ -59,4 +59,24 @@
 #blog-page .container .blog .excerpt {
     line-height: 1.2em;
     color: #21243D;
+}
+
+@media (max-width: 768px) {
+    #blog-page {
+        padding: 24px;
+        margin-top: 74px;
+    }
+
+    #blog-page .container {
+        width: 100%;
+    }
+
+    #blog-page .container .heading h1 {
+        font-size: 30px;
+    }
+
+    #blog-page .container .blog h2 {
+        font-size: 26px;
+
+    }
 }
