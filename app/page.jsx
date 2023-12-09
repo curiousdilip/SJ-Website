@@ -17,10 +17,11 @@ export default function Home() {
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </p>
-            <a href="#" className="btn">
-
-              Download Resume
-            </a>
+            <div className="btn">
+              <a href="#">
+                Download Resume
+              </a>
+            </div>
           </div>
           <div className="image">
             <Image
