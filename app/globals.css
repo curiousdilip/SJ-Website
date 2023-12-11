@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 footer {
@@ -29,6 +29,6 @@ footer .container .social-links a:last-child {
 }
 
 footer .container p {
-  color: #21243D;
+  color: #21243d;
   font-size: 14px;
 }
