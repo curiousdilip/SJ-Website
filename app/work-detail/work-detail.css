@@ -56,6 +56,11 @@
   margin-top: 15px;
 }
 
+#work-detail .container .img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
 #work-detail .container h2 {
   margin-top: 54px;
   margin-bottom: 25px;
@@ -72,4 +77,43 @@
 
 #work-detail .container p {
   margin: 30px 0;
+}
+
+@media (max-width:768px) {
+  #work-detail {
+    padding: 24px;
+    margin-top: 74px;
+  }
+
+  #work-detail .container {
+    width: 100%;
+  }
+
+  #work-detail .container .heading h1 {
+    font-size: 30px;
+  }
+
+  #work-detail .container .meta {
+
+    margin-top: 23px;
+  }
+
+  #work-detail .container .excerpt {
+    margin-top: 0;
+    margin-bottom: 23px;
+  }
+
+  #work-detail .container .excerpt p {
+    margin: 23px 0;
+  }
+
+  #work-detail .container h2 {
+    margin-top: 23px;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+
+  #work-detail .container h3 {
+    font-size: 20px;
+  }
 }
