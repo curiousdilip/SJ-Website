@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "./home.css";
+import "./home.scss";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -18,9 +18,7 @@ export default function Home() {
               Exercitation veniam consequat sunt nostrud amet.
             </p>
             <div className="btn">
-              <a href="#">
-                Download Resume
-              </a>
+              <a href="#">Download Resume</a>
             </div>
           </div>
           <div className="image">
