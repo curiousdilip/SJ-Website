@@ -1,10 +1,12 @@
 import Image from "next/image";
 import "./home.scss";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <main>
+      <Header />
       <section id="hero">
         <div className="container">
           <div className="content">

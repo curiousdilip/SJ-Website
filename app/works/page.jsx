@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import "./works.scss";
 export default function works() {
   return (
     <>
+      <Header />
       <section id="works-page">
         <div className="container">
           <div className="heading">

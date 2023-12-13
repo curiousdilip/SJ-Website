@@ -2,6 +2,7 @@ import "./contact.scss";
 export default function Contact() {
   return (
     <>
+      <Header />
       <section id="contact">
         <div className="container">
           <div className="heading">

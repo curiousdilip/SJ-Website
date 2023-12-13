@@ -6,6 +6,43 @@
   font-family: $base-font-family;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0px rgba($color: #000000, $alpha: 0.2);
+  padding: 10px 0;
+  .container {
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      img {
+        border-radius: 50%;
+      }
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        padding: 0 30px;
+        a {
+          font-size: 20px;
+          font-weight: 700;
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
 footer {
   padding: 54px 0;
 

@@ -1,8 +1,10 @@
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import "./blog.scss";
 export default function Blog() {
   return (
     <>
+      <Header />
       <section id="blog-page">
         <div className="container">
           <div className="heading">
