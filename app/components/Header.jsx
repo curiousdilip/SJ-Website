@@ -14,6 +14,11 @@ export default function Header() {
               alt="Picture of the Subhash Jha"
             />
           </Link>
+          <div className="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <ul>
             <li>
               <Link href="/">Home</Link>
