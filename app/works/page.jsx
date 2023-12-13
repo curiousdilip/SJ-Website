@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
-import "./works.css";
+import "./works.scss";
 export default function works() {
   return (
     <>

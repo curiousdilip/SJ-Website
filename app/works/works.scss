@@ -1,0 +1,127 @@
+@import "../_variables.scss";
+#works-page {
+  padding: 50px 0;
+  margin-top: 106px;
+
+  .container {
+    width: 856px;
+    margin: 0 auto;
+
+    .heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      h1 {
+        font-size: 44px;
+        font-weight: bold;
+        margin-bottom: 55px;
+      }
+
+      p {
+        font-size: 22px;
+        color: $primary-color;
+        line-height: 60px;
+      }
+    }
+
+    .work-list {
+      .work {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e0e0e0;
+
+        .image {
+          img {
+            border-radius: 6px;
+            margin-right: 18px;
+          }
+        }
+
+        .description {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+
+          h3 {
+            font-size: 30px;
+            font-weight: bold;
+            color: $primary-color;
+          }
+
+          .meta {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 20px 0;
+
+            .year {
+              padding: 5px 10px;
+              background-color: #142850;
+              color: #ffffff;
+              margin-right: 26px;
+              border-radius: 16px;
+              font-weight: black;
+              font-size: 18px;
+            }
+
+            .type {
+              color: #8695a4;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #works-page {
+    padding: 24px;
+    margin-top: 74px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .work-list {
+    .work {
+      flex-direction: column;
+
+      .image {
+        width: 100%;
+        margin: 0;
+
+        img {
+          max-width: 100%;
+          width: 100%;
+          height: 230px;
+          object-fit: cover;
+        }
+      }
+
+      .description {
+        h3 {
+          font-size: 24px;
+          margin-top: 17px;
+        }
+
+        .meta {
+          margin-top: 16px;
+          margin-bottom: 25px;
+        }
+
+        p {
+          width: auto;
+        }
+      }
+    }
+  }
+}

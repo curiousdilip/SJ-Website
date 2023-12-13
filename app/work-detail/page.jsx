@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
-import "./work-detail.css";
+import "./work-detail.scss";
 export default function workDetail() {
   return (
     <>

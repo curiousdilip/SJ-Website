@@ -1,11 +1,4 @@
-// home.scss
-
-$primary-color: #21243d;
-$accent-color: #00a8cc;
-$highlight-color: #ff6464;
-$background-color: #edf7fa;
-$shadow-color: rgba(187, 225, 250, 0.25);
-
+@import "./_variables.scss";
 #hero {
   .container {
     width: 856px;
