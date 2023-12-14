@@ -134,7 +134,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   nav {
     .container {
       flex-direction: column;
@@ -149,6 +149,15 @@ footer {
         flex-direction: column;
         width: 100%;
         margin-bottom: 0.25rem;
+
+        li {
+          width: 100%;
+          text-align: center;
+        }
+      }
+
+      ul.open {
+        display: flex;
       }
     }
   }
