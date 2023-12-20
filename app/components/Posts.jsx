@@ -23,7 +23,7 @@ export default function Posts() {
     };
 
     fetchArticles();
-  });
+  }, []);
   const limitedArticles = articles.slice(0, 2);
 
   return (
