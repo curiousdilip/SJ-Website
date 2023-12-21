@@ -92,6 +92,16 @@ export default function Home() {
                   amet sint. Velit officia consequat duis enim velit mollit.
                   Exercitation veniam consequat sunt nostrud amet.
                 </p>
+                <div className="tech-stack">
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>JS</p>
+                </div>
+                <div className="links">
+                  <a href="#">
+                    <img src="/github.svg" alt="curiousdilip" />
+                  </a>
+                </div>
               </div>
             </div>
             <div className="work">
