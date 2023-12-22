@@ -70,60 +70,16 @@ export default function Home() {
                   amet sint. Velit officia consequat duis enim velit mollit.
                   Exercitation veniam consequat sunt nostrud amet.
                 </p>
-              </div>
-            </div>
-            <div className="work">
-              <div className="image">
-                <Image
-                  src="/subhash-jha.jpeg"
-                  width={246}
-                  height={180}
-                  alt="Dashboard"
-                />
-              </div>
-              <div className="description">
-                <h3>Vibrant Portraits of 2020</h3>
-                <div className="meta">
-                  <p className="year">2020</p>
-                  <p className="type">Dashboard</p>
-                </div>
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <div className="tech-stack">
-                  <p>HTML</p>
-                  <p>CSS</p>
-                  <p>JS</p>
+                <div className="tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JS</span>
+                  <span>REACTJS</span>
                 </div>
                 <div className="links">
-                  <a href="#">
-                    <img src="/github.svg" alt="curiousdilip" />
-                  </a>
+                  <a href="#">Code <img src="/github.svg" alt="" /> </a>
+                  <a href="#">Live <img src="/arrowLink.svg" alt="" /></a>
                 </div>
-              </div>
-            </div>
-            <div className="work">
-              <div className="image">
-                <Image
-                  src="/subhash-jha.jpeg"
-                  width={246}
-                  height={180}
-                  alt="Dashboard"
-                />
-              </div>
-              <div className="description">
-                <h3>36 Days of Malayalam type</h3>
-                <div className="meta">
-                  <p className="year">2020</p>
-                  <p className="type">Dashboard</p>
-                </div>
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </p>
               </div>
             </div>
           </div>
