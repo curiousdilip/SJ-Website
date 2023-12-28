@@ -6,11 +6,11 @@ export default function Footer() {
       <footer>
         <div className="container">
           <div className="social-links">
-            <a href="https://www.facebook.com/compdawn" target="_blank">
+            <a href="https://www.facebook.com/subhashjhaisme" target="_blank">
               {" "}
               <Image src="/fb.svg" width={30} height={30} alt="Facebook" />
             </a>
-            <a href="https://www.instagram.com/subhashjha35" target="_blank">
+            <a href="https://www.instagram.com/subhashjhaisme" target="_blank">
               {" "}
               <Image src="/insta.svg" width={30} height={30} alt="Instagram" />
             </a>
@@ -18,7 +18,7 @@ export default function Footer() {
               {" "}
               <Image src="/twitter.svg" width={30} height={30} alt="Twiiter" />
             </a>
-            <a href="https://www.linkedin.com/in/subhashjha35" target="_blank">
+            <a href="https://www.linkedin.com/in/subhashjhaisme" target="_blank">
               {" "}
               <Image
                 src="/linkedin.svg"

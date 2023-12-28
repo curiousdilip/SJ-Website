@@ -94,6 +94,11 @@
           display: flex;
           justify-content: space-between;
           margin: 20px 0;
+          align-items: center;
+
+          .date {
+            font-weight: 600;
+          }
 
           .seperator {
             height: 21px;
@@ -156,6 +161,7 @@
           justify-content: space-between;
           height: 100%;
           width: 100%;
+
           h3 {
             font-size: 30px;
             font-weight: bold;
@@ -269,8 +275,17 @@
     .container {
       width: auto;
 
+
       .posts {
         grid-template-columns: auto;
+
+        .post {
+          .archive {
+            font-size: 12px;
+
+
+          }
+        }
       }
     }
   }
