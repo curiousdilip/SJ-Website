@@ -1,13 +1,29 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <nav>
+      <nav className={scrolled ? "scrolled" : ""}>
         <div className="container">
           <Link href="/">
             <Image
@@ -18,7 +34,7 @@ export default function Header() {
             />
           </Link>
           <div
-            className="menu"
+            className={`menu ${menuOpen ? "open" : ""}`}
             onClick={() => {
               setMenuOpen(!menuOpen);
             }}
