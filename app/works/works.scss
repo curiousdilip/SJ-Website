@@ -39,6 +39,9 @@
           img {
             border-radius: 6px;
             margin-right: 18px;
+            height: auto;
+            object-fit: cover;
+            width: 280px;
           }
         }
 
@@ -47,7 +50,7 @@
           flex-direction: column;
           justify-content: space-between;
           height: 100%;
-
+          width: 100%;
           h3 {
             font-size: 30px;
             font-weight: bold;
@@ -75,6 +78,40 @@
               font-size: 20px;
             }
           }
+
+          .tech {
+            display: flex;
+            justify-content: flex-start;
+            // width: 60%;
+            margin: 20px 0;
+
+            span {
+              padding: 10px;
+              background-color: #8695a4;
+              border-radius: 10px;
+              font-size: 12px;
+              color: #fff;
+              margin-right: 20px;
+            }
+          }
+
+          .links {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            a {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              text-decoration: none;
+              font-size: 20px;
+
+              img {
+                padding-left: 10px;
+              }
+            }
+          }
         }
       }
     }
@@ -85,41 +122,46 @@
   #works-page {
     padding: 24px;
     margin-top: 74px;
-  }
-
-  .container {
-    width: 100%;
-  }
-
-  .work-list {
-    .work {
-      flex-direction: column;
-
-      .image {
-        width: 100%;
-        margin: 0;
-
-        img {
-          max-width: 100%;
-          width: 100%;
-          height: 230px;
-          object-fit: cover;
+    .container {
+      width: 100%;
+      .heading {
+        h1 {
+          font-size: 30px;
+          margin-bottom: 10px;
         }
       }
 
-      .description {
-        h3 {
-          font-size: 24px;
-          margin-top: 17px;
-        }
+      .work-list {
+        .work {
+          flex-direction: column;
 
-        .meta {
-          margin-top: 16px;
-          margin-bottom: 25px;
-        }
+          .image {
+            width: 100%;
+            margin: 0;
 
-        p {
-          width: auto;
+            img {
+              max-width: 100%;
+              width: 100%;
+              height: 230px;
+              object-fit: cover;
+            }
+          }
+
+          .description {
+            h3 {
+              font-size: 24px;
+              margin-top: 17px;
+            }
+
+            .meta {
+              margin-top: 16px;
+              margin-bottom: 25px;
+            }
+
+            p {
+              width: auto;
+            }
+          }
         }
       }
     }

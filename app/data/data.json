@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": " getTogether ",
+    "content": "Final year College Project. #SocialNetworking #LanguageBuddies #AdminPanel ",
+    "codeLink": "https://github.com/subhashjha35/getTogether",
+    "liveLink": "/",
+    "tech": ["Reactjs", "Nextjs"],
+    "year": "2020",
+    "type": "website",
+    "img": "/subhash-jha.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Warehouse Management System",
+    "content": "The Ware house Management system for S & T, Allhabad, UP, India. This system keeps track of all the goods that have been exchanged among the warehouses and clients. ",
+    "codeLink": "https://github.com/subhashjha35/warehouseManagementSystem",
+    "liveLink": "/",
+    "tech": ["Reactjs", "Nextjs"],
+    "year": "2020",
+    "type": "website",
+    "img": "/subhash-jha.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Todo Using Angular",
+    "content": "Made TODO list using Angular 4",
+    "codeLink": "https://github.com/subhashjha35/Todo",
+    "liveLink": "/",
+    "tech": ["Reactjs", "Nextjs"],
+    "year": "2020",
+    "type": "website",
+    "img": "/subhash-jha.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "SNT Rail",
+    "content": "Warehouse Management System using AngularJS and PHP ",
+    "codeLink": "https://github.com/subhashjha35/SNT_Railr",
+    "liveLink": "/",
+    "tech": ["Reactjs", "Nextjs"],
+    "year": "2020",
+    "type": "website",
+    "img": "/subhash-jha.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Transcript Analyzer",
+    "content": "Warehouse Management System using AngularJS and PHP ",
+    "codeLink": "https://github.com/subhashjha35/transcript-analyzer",
+    "liveLink": "/",
+    "tech": ["Reactjs", "Nextjs"],
+    "year": "2020",
+    "type": "website",
+    "img": "/subhash-jha.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Movies",
+    "content": "Warehouse Management System using AngularJS and PHP ",
+    "codeLink": "https://github.com/subhashjha35/movies",
+    "liveLink": "/",
+    "tech": ["Reactjs", "Nextjs"],
+    "year": "2020",
+    "type": "website",
+    "img": "/subhash-jha.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Github Repo Finder React",
+    "content": "This can find the Repositories using a search string. The user can also see the issues related to a particular repository. This has been built using ReactJS Typescript with Hooks. ",
+    "codeLink": "https://github.com/subhashjha35/github-repo-finder-react",
+    "liveLink": "/",
+    "tech": ["Reactjs", "Nextjs"],
+    "year": "2020",
+    "type": "website",
+    "img": "/subhash-jha.jpeg"
+  }
+]
