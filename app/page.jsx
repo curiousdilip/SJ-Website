@@ -2,9 +2,9 @@ import Image from "next/image";
 import "./home.scss";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Posts from "./components/Posts";
 import Link from "next/link";
 import data from "./data/data";
+import Blogs from "./components/blogs";
 
 export default function Home() {
   return (
@@ -42,7 +42,8 @@ export default function Home() {
             <p>Recent posts</p>
             <Link href="/blog">View all</Link>
           </div>
-          <Posts />
+          {/* <Posts /> */}
+          <Blogs maxBlogs={2} />
         </div>
       </section>
       <section id="works">

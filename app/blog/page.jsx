@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import MorePosts from "../components/MorePosts";
+
+import Blogs from "../components/blogs";
 import "./blog.scss";
 export default function Blog() {
   return (
@@ -11,7 +12,8 @@ export default function Blog() {
           <div className="heading">
             <h1>Blog</h1>
           </div>
-          <MorePosts />
+          {/* <MorePosts /> */}
+          <Blogs />
         </div>
       </section>
       <Footer />
