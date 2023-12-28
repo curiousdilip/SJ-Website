@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -17,22 +17,25 @@ export default function Header() {
               alt="Picture of the Subhash Jha"
             />
           </Link>
-          <div className="menu" onClick={() => {
-            setMenuOpen(!menuOpen)
-          }}>
+          <div
+            className="menu"
+            onClick={() => {
+              setMenuOpen(!menuOpen);
+            }}
+          >
             <span></span>
             <span></span>
             <span></span>
           </div>
           <ul className={menuOpen ? "open" : ""}>
             <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
               <Link href="/works">Works</Link>
             </li>
             <li>
               <Link href="/blog">Blog</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>

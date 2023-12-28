@@ -15,7 +15,7 @@ nav {
   display: flex;
   background-color: #fff;
   box-shadow: 0 0 10px 0px rgba($color: #000000, $alpha: 0.2);
-  padding: 10px 0;
+  padding: 10px;
 
   .container {
     width: 856px;
@@ -70,6 +70,9 @@ nav {
         a:hover {
           color: $highlight-color;
         }
+      }
+      li:last-child {
+        padding-right: 0;
       }
     }
   }
