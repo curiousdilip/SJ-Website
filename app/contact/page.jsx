@@ -30,34 +30,34 @@ export default function Contact() {
                 rows="3"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit" class="">
+              <button type="submit" className="">
                 <a href="#"> Send Now</a>
               </button>
             </form>
             <div className="details">
-              <div class="box">
-                <div class="icon">
+              <div className="box">
+                <div className="icon">
                   <img src="/phone-icon.svg" alt="Phone Number" />
                 </div>
-                <div class="number">
+                <div className="number">
                   <h3>Call</h3>
                   <p>+91 88024 82448</p>
                 </div>
               </div>
-              <div class="box">
-                <div class="icon">
+              <div className="box">
+                <div className="icon">
                   <img src="/email.svg" alt="Email" />
                 </div>
-                <div class="mail">
+                <div className="mail">
                   <h3>Send Email</h3>
                   <p>subhashjha35@gmail.com</p>
                 </div>
               </div>
-              <div class="box">
-                <div class="icon">
+              <div className="box">
+                <div className="icon">
                   <img src="/location.svg" alt="Location" />
                 </div>
-                <div class="location">
+                <div className="location">
                   <h3>Visit </h3>
                   <p>Dwarka, New Delhi, India</p>
                 </div>

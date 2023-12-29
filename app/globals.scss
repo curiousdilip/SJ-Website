@@ -126,6 +126,7 @@ footer {
       a {
         text-decoration: none;
         margin-right: 35px;
+        color: $primary-color;
 
         &:last-child {
           text-decoration: none;
@@ -137,6 +138,7 @@ footer {
     p {
       color: $primary-color;
       font-size: 14px;
+      padding-bottom: 5px;
     }
   }
 }
