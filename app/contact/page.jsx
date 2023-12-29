@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "./contact.scss";
 export default function Contact() {
@@ -26,17 +27,17 @@ export default function Contact() {
               />
               <textarea
                 name="message"
-                rows="2"
+                rows="3"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit" class="btn btn-primary">
-                Send Now
+              <button type="submit" class="">
+                <a href="#"> Send Now</a>
               </button>
             </form>
             <div className="details">
               <div class="box">
                 <div class="icon">
-                  <i class="bi bi-telephone"></i>
+                  <img src="/phone-icon.svg" alt="Phone Number" />
                 </div>
                 <div class="number">
                   <h3>Call</h3>
@@ -45,7 +46,7 @@ export default function Contact() {
               </div>
               <div class="box">
                 <div class="icon">
-                  <i class="bi bi-envelope"></i>
+                  <img src="/email.svg" alt="Email" />
                 </div>
                 <div class="mail">
                   <h3>Send Email</h3>
@@ -54,7 +55,7 @@ export default function Contact() {
               </div>
               <div class="box">
                 <div class="icon">
-                  <i class="bi bi-geo"></i>
+                  <img src="/location.svg" alt="Location" />
                 </div>
                 <div class="location">
                   <h3>Visit </h3>
@@ -65,6 +66,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
