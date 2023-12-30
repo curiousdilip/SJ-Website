@@ -15,14 +15,14 @@ export default function Header() {
 
                 </Link>
                 <nav className={menuOpen ? "open" : ""}>
-                    <Link href="/">Blog</Link>
-                    <Link href="/">Works</Link>
-                    <Link href="/">Contact</Link>
+                    <Link href="/blog">Blog</Link>
+                    <Link href="/works">Works</Link>
+                    <Link href="/contact">Contact</Link>
                 </nav>
 
-                <button class={`hamburger ${menuOpen ? "open" : ""}`}
+                <button className={`hamburger ${menuOpen ? "open" : ""}`}
                     onClick={() => setMenuOpen(!menuOpen)}>
-                    <div class="bar"></div>
+                    <div className="bar"></div>
                 </button>
             </div>
         </header>

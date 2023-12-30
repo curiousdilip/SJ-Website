@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Headers from "../components/Headers";
 import "./works.scss";
 import data from "../data/data";
 
 export default function works() {
   return (
     <>
-      <Header />
+      <Headers />
       <section id="works-page">
         <div className="container">
           <div className="heading">

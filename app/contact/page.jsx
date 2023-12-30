@@ -1,10 +1,10 @@
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Headers from "../components/Headers";
 import "./contact.scss";
 export default function Contact() {
   return (
     <>
-      <Header />
+      <Headers />
       <section id="contact">
         <div className="container">
           <div className="heading">
